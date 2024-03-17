@@ -7,7 +7,7 @@ export default function Loged() {
     const login = useSelector((state)=> state.login.value)
 
     return(
-        <div className="Loged">
+        <div className="Loged container">
             <h1>Welcome {login.username}</h1>
             <Link to="/"><button>BACK</button></Link>
         </div>

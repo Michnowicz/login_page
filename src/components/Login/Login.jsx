@@ -21,7 +21,7 @@ export default function Login() {
     },[login])
 
     return(
-        <div className="Login">
+        <div className="Login container">
             <h1>Welcome to the login page</h1>
 
             <div className="inputs">

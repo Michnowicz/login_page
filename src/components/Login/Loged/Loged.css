@@ -1,29 +1,6 @@
-.Loged {
-    height: 80vh;
-    width: 40vw;
-    background-color: #181818;
-    border: 2px solid #DB2955;
-    border-radius: 4px;
-    box-sizing: border-box;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-}
+
 .Loged h1 {
     color: white;
     margin-top: 40px;
     margin-bottom: 40px;
-}
-.Loged button {
-    padding: 12px 32px 12px 32px;
-    color: white;
-    background-color: #18181800;
-    font-size: 1rem;
-    border: 2px solid #DB2955;
-    border-radius: 32px;
-    margin-top: 40px;
-    cursor: pointer;
 }

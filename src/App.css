@@ -1,7 +1,10 @@
 .App {
   width: 100vw;
   height: 100vh;
-  background-color: #181818;
+  /* background-color: #181818; */
+  background-image: url("./assets/bg.png");
+  background-position: center;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
