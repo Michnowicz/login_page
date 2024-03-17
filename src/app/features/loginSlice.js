@@ -11,6 +11,7 @@ export const loginSlice = createSlice({
             password: "",
             passwordCheck: false,
             user: ["dummy", "test"],
+            message:["",""]
         },
     },
     reducers: {
@@ -23,9 +24,15 @@ export const loginSlice = createSlice({
         userCheck: (state) => {
             if (state.value.username == state.value.user[0]) {
                 state.value.usernameCheck = true
+                state.value.message[0] = ""
+            } else {
+                state.value.message[0] = "wrong username"
             }
             if (state.value.password == state.value.user[1]) {
                 state.value.passwordCheck = true
+                state.value.message[1] = ""
+            } else {
+                state.value.message[1] = "wrong password"
             }
         },
     },

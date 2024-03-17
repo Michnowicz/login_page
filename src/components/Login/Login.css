@@ -47,9 +47,9 @@
 .inputs input:focus {
     outline: 0;
 }
-.inputs p {
+.inputs .par {
     color: #b91a42;
-    margin-bottom: 20px;
+    height: 40px;
 }
 
 

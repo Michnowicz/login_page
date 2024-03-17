@@ -16,7 +16,8 @@ export default function Login() {
         username: ${login.username}\n
         password: ${login.password}\n
         usernameCheck: ${login.usernameCheck}\n
-        passwordCheck: ${login.passwordCheck}\n`);
+        passwordCheck: ${login.passwordCheck}\n
+        message: ${login.message[0]}/${login.message[1]}`)
     },[login])
 
     return(
@@ -25,9 +26,9 @@ export default function Login() {
 
             <div className="inputs">
                 <input type="text" placeholder="username" onChange={(e) => dispatch(username(e.target.value))}/>
-                <p>wrong username</p>
+                <div className="par">{login.message[0]}</div>
                 <input type="password" placeholder="password" onChange={(e) => dispatch(password(e.target.value))}/>
-                <p>wrong password</p>
+                <div className="par">{login.message[1]}</div>
             </div>
 
             <div className="btn">
