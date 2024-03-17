@@ -1,0 +1,10 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #181818;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+}
+
