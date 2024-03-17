@@ -1,16 +1,4 @@
-.test {
-    position: absolute;
-    top: 20px;
-}
-.test p {
-    color: white;
-    word-spacing: 20px;
-}
-
-
-
-
-.Login {
+.Loged {
     height: 80vh;
     width: 40vw;
     background-color: #181818;
@@ -24,36 +12,12 @@
     justify-content: center;
     gap: 40px;
 }
-
-.Login h1 {
+.Loged h1 {
     color: white;
     margin-top: 40px;
     margin-bottom: 40px;
 }
-
-.inputs {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-}
-.inputs input {
-    background-color: #18181800;
-    padding: 8px 20px 8px 20px;
-    color: white;
-    font-size: 1.2rem;
-    border: 2px solid #DB2955;
-    border-radius: 20px;
-}
-.inputs input:focus {
-    outline: 0;
-}
-.inputs p {
-    color: #b91a42;
-    margin-bottom: 20px;
-}
-
-
-.btn button {
+.Loged button {
     padding: 12px 32px 12px 32px;
     color: white;
     background-color: #18181800;
