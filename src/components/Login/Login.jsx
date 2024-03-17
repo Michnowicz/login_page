@@ -34,7 +34,7 @@ export default function Login() {
             <div className="btn">
                 {
                     (login.username == login.user[0]) & (login.password == login.user[1]) ?
-                    <Link to="/loged"><button onClick={()=>dispatch(userCheck())}>OK</button></Link>
+                    <Link to="/loged"><button onClick={()=>dispatch(userCheck())}>LOGIN</button></Link>
                     :
                     <button onClick={()=>dispatch(userCheck())}>LOGIN</button>
                 }
